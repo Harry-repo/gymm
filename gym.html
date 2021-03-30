@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry gym</title>
+</head>
+<style>
+    body {
+        margin: 0%;
+        padding: 0%;
+        color: beige;
+        background-image: url("gymproject.jpg")
+    }
+
+    .left {
+        border: 2px solid aqua;
+        display: inline-block;
+        font-size: 25px;
+        background-color: black;
+        border-radius: 10px;
+
+    }
+
+    .left img {
+        filter: invert(100%);
+        height: 150px;
+        padding: 31px;
+    }
+
+    .mid {
+        display: inline-block;
+        border: 2px solid aqua;
+        width: 50pc;
+        position: absolute;
+        top: 30px;
+        right: 279px;
+        background-color: #060000;
+        padding: 1px;
+        font-size: 22px;
+        border-radius: 40px;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        padding: 5px;
+
+
+    }
+
+    .navbar li a {
+        color: beige;
+        text-decoration: none;
+        padding: 20px;
+
+    }
+
+
+
+
+    .right {
+        border: 2px solid aqua;
+        display: inline-block;
+        position: absolute;
+        top: 34px;
+        right: 45px;
+    }
+
+    .container {
+        padding: 25px;
+        border: chartreuse solid 2px;
+        width: 228px;
+        margin: auto;
+
+
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+
+            <img src="gum logo.jpg" alt="">
+            <div>Harrys Fitness World</div>
+
+
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Fitness cal</a></li>
+                <li><a href="#">Euipemts</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+
+
+        </div>
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <button class="btn">Email us now</button>
+
+        </div>
+    </header>
+
+    <div class="container">
+        <form action="noaction.php">
+            <h1>Join harrys gym</h1>
+            <input type="text" placeholder="Enter your name">
+            <input type="text" placeholder="Enter your age">
+            <input type="text" placeholder="Enter your gender">
+            <input type="text" placeholder="Enter your body weight">
+            <input type="text" placeholder="Enter your  goal">
+
+            <button class="btn">Sumbit</button>
+        </form>
+    </div>
+</body>
+
+</html>
